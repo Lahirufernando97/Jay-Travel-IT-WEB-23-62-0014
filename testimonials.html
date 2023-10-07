@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAY TOURS</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   
+
+      <!-- Include the external JavaScript file -->
+      <script src="form-validation.js"></script>
+      <script src="https://kit.fontawesome.com/bb56a65186.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+        /* Custom CSS for the navigation bar */
+
+        #navtitle{
+          font-family: 'Anton', sans-serif;
+          font-weight: 900;
+          font-size: 30px;
+        }
+
+        .navbar {
+            background-color: black;
+        }
+        
+        .navbar-brand {
+            color: rgb(241, 90, 20)!important;
+            font-size: 24px;
+            font-weight: bold;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .navbar-brand:hover {
+            color: white;
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: white;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            color: rgb(241, 90, 20)!important;
+            background-color: black;
+        }
+    
+
+
+    .card-3d {
+      position: relative;
+      transition: transform 0.5s;
+    }
+    .card-3d:hover {
+      transform: rotateY(10deg) rotateX(10deg);
+    }
+ #cardimg{
+    height: 400px;
+ }
+
+    </style>
+
+</head>
+<body >
+
+    <!--Navigation Section-->
+<nav class="navbar navbar-expand-lg navbar-dark">   
+    <a class="navbar-brand" href="#" id="navtitle">JAY TOURS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.htm">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./About Us.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Services.html">SERVICE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/testimonials.html">TESTIMONIALS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Portfolio.html">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Contact Us.html">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--End of Navigation Section-->
+
+
+<section class="testimonials py-5">
+    <div class="container">
+      <h2 class="text-center mb-5" style="color: tomato;">What Our Customers Say</h2>
+  
+      <!-- Testimonials Carousel -->
+      <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Customer Reviews -->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card card-3d text-center">
+                  <img src="./Images/testmo/john.jpg" alt="Customer 1" class="card-img-top" id="cardimg">
+                  <div class="card-body">
+                    <h5 class="card-title">John Doe</h5>
+                    <p class="card-text">I had an amazing experience with JAYTOURS. The adventure in the wilderness was unforgettable.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-3d text-center">
+                  <img src="./Images/testmo/jane.jpeg" alt="Customer 2" class="card-img-top" id="cardimg">
+                  <div class="card-body">
+                    <h5 class="card-title">Jane Smith</h5>
+                    <p class="card-text">The cultural expeditions were eye-opening. JAYTOURS helped me discover new horizons.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-3d text-center">
+                  <img src="./Images/testmo/David-Williams-web.jpg" alt="Customer 3" class="card-img-top" id="cardimg">
+                  <div class="card-body">
+                    <h5 class="card-title">David Williams</h5>
+                    <p class="card-text">Tropical Paradise is an understatement. JAYTOURS made my beach vacation truly relaxing.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Success Stories -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card card-3d text-center">
+                  <img src="./Images/testmo/emaliy and mark.jpg" alt="Success Story 1" class="card-img-top" id="cardimg">
+                  <div class="card-body">
+                    <h5 class="card-title">Emily & Mark</h5>
+                    <p class="card-text">Thanks to JAYTOURS, our honeymoon in the mountains was a dream come true.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-3d text-center">
+                  <img src="./Images/testmo/Mike and Lisa-.jpg" alt="Success Story 2" class="card-img-top" id="cardimg">
+                  <div class="card-body">
+                    <h5 class="card-title">Mike & Lisa</h5>
+                    <p class="card-text">We had an unforgettable family adventure, all thanks to JAYTOURS' expertise.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card card-3d text-center">
+                  <img src="./Images/testmo/lucas.jpg" alt="Success Story 3" class="card-img-top" id="cardimg">
+                  <div class="card-body">
+                    <h5 class="card-title">Lucas</h5>
+                    <p class="card-text">JAYTOURS turned my solo trip into a series of amazing memories.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Carousel Controls -->
+        <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    
+  </section>
+  
+
+
+
+
+
+<!-- Footer -->
+<footer class="text-lg-start p-2 text-white col-md-12" style="background-color:#0a2433;">
+
+    <!-- Section: Links  -->
+    <section class="Links">
+        <div class="container text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+  
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-left">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        HELP
+                    </h6>
+                    <p class="mb-0">
+                        <a href="#!" class="text-white">HELP Center</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#!" class="text-white">FAQs</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#!" class="text-white">Terms of Use</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+  
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-left">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        ABOUT US
+                    </h6>
+                    <p class="mb-0">
+                        <a href="#!" class="text-white">Blog</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#!" class="text-white">Careers</a>
+                    </p>
+                </div>
+  
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-left">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        DESTINATIONS
+                    </h6>
+                    <p class="mb-0">
+                        <a href="#!" class="text-white">Countries</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#!" class="text-white">Cities</a>
+                    </p>
+                </div>
+  
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-left">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        PARTNER WITH US
+                    </h6>
+                    <p class="mb-0">
+                        <a href="#!" class="text-white">Properties</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#!" class="text-white">Affiliates</a>
+                    </p>
+                </div>
+      
+  
+                <div class="col-md-2 col-lg-1 col-xl-2 mx-auto mb-md-0 mb-2">
+                    <!-- Links -->
+                    <p class="mb-2" id="addloc" > <i class="fas fa-phone" style="color:orange;"> </i> &emsp; + 01 234 567 88 <br> &emsp; &emsp; + 01 234 567 89
+                    </p> 
+  
+                    <!-- Address with location icon -->
+                     <p class="mb-5" id="addloc">
+                      <i class="fas fa-map-marker-alt" style="color:orange;"> </i> &emsp; &ensp;No.056. <br>  &emsp; &emsp; Havlock Town. <br>  &emsp; &emsp; Colombo 05 <br>  &emsp; &emsp; Srilanka
+                    </p>
+                </div> 
+                
+                
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+  </footer>
+  
+  
+  
+  
+    <div class="text-center p-3 text-white" style="background-color:#000000;">
+       Copyright © 2020 -
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">SLIIT WEB DEVELOPMENT - All rights reserved</a>
+    </div>
+    <!-- Footer -->
+  
+  <!-- Link to Bootstrap JS and Popper.js (required for Bootstrap) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  </body>
+  </html>
+  
